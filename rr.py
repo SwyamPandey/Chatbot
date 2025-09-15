@@ -3,7 +3,7 @@ from typing import TypedDict, Annotated
 from langchain_core.messages import BaseMessage, HumanMessage
 from langchain_groq import ChatGroq
 #from langgraph.checkpoint.sqlite import SqliteSaver
-from langgraph.checkpoint.sqlite.sync import SqliteSaver
+from langgraph.checkpoint.sqlite import SqliteSaver
 from langgraph.graph.message import add_messages
 from langgraph.prebuilt import ToolNode, tools_condition
 from langchain_community.tools import DuckDuckGoSearchRun
