@@ -1,4 +1,4 @@
-langgraph
+
 langchain
 langchain-groq
 langchain-community
@@ -6,3 +6,4 @@ streamlit
 requests
 python-dotenv
 langgraph-checkpoint==2.1.1
+langgraph==0.6.7
