@@ -5,4 +5,4 @@ langchain-community
 streamlit
 requests
 python-dotenv
-langgraph-checkpoint
+langgraph-checkpoint==2.1.1
